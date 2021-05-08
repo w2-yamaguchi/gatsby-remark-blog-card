@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-remark-blog-card",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to embed external links beautifully in markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w2-yamaguchi/gatsby-remark-blog-card.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark",
+    "blog card"
+  ],
+  "author": "Wataru Yamaguchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w2-yamaguchi/gatsby-remark-blog-card/issues"
+  },
+  "homepage": "https://github.com/w2-yamaguchi/gatsby-remark-blog-card#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "semantic-release": "^17.4.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ],
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
