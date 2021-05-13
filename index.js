@@ -1,7 +1,8 @@
-
 const visit = require(`unist-util-visit`);
 
 module.exports = ({markdownAST}, options = {}) => {
+  const defaultTitle = `Blog Card`;
+
   const template = (prop) => `
   <iframe 
     style="width:100%;height:155px;max-width:680px;"
