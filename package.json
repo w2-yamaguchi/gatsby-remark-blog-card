@@ -57,6 +57,6 @@
     "access": "public"
   },
   "dependencies": {
-    "unist-util-visit": "^3.1.0"
+    "unist-util-visit": "^2.0.3"
   }
 }
