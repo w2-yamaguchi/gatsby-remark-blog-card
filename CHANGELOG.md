@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/w2-yamaguchi/gatsby-remark-blog-card/compare/v1.0.0...v1.0.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* add defaultTitle and change library version ([#3](https://github.com/w2-yamaguchi/gatsby-remark-blog-card/issues/3)) ([7f05ba1](https://github.com/w2-yamaguchi/gatsby-remark-blog-card/commit/7f05ba12fee1531cfd9dc38a1502716237ed2333))
+
 # 1.0.0 (2021-05-13)
 
 

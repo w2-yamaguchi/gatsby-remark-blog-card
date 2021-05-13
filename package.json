@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-blog-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby plugin to embed external links beautifully in markdown.",
   "main": "index.js",
   "scripts": {
