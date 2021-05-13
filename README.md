@@ -7,8 +7,8 @@ Gatsby plugin to embed external links beautifully in markdown.
 </p>
 
 <p align="center">
-<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@w2-yamaguchi/gatsby-remark-blog-card">
-<img alt="npm" src="https://img.shields.io/npm/dt/@w2-yamaguchi/gatsby-remark-blog-card">
+<img alt="npm (scoped)" src="https://img.shields.io/npm/v/gatsby-remark-blog-card">
+<img alt="npm" src="https://img.shields.io/npm/dt/gatsby-remark-blog-card">
 </p>
 
 ## Usage
