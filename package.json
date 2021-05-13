@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js ./",
     "prepare": "husky install"
   },
   "repository": {
@@ -54,5 +55,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "unist-util-visit": "^3.1.0"
   }
 }
